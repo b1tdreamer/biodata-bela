@@ -1,3 +1,26 @@
+/*
+    __  ____            __                 
+   /  |/  (_)________  / /___  ______  ___ 
+  / /|_/ / / ___/ __ \/ __/ / / / __ \/ _ \
+ / /  / / / /__/ /_/ / /_/ /_/ / / / /  __/
+/_/  /_/_/\___/\____/\__/\__,_/_/ /_/\___/
+
+*/
+
+/// Project MicoTune
+/// Art Director Santiago Morilla
+/// Sound Designer and NIME Joaku de Sotavento
+/// Ascii and midilogs by b1tdreamer
+
+/// Version 0.1 Samplers Manipulation and MIDI reading
+
+/*
+
+Primer version de synth granular para el bela controlada por biodata, genera polyfonias pero tienen un time out para
+que paren los samplers despues de unos segundos
+
+*/
+
 s = Server.default;
 
 // Configuración de Bela
